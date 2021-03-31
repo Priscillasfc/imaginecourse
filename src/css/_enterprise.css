@@ -1,0 +1,17 @@
+.enterprise__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.enterprise__image {
+  max-width: 756px;
+  align-self: left;
+  margin: 2.687rem 7.125rem 0;
+}
+
+.enterprise__logos-img {
+  position: center;
+  height: 576px;
+  size: cover;
+}

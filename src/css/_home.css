@@ -26,6 +26,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
+  margin-bottom: 0px;
 }
 
 .slide_copy h2 {
@@ -81,7 +82,7 @@
   font-weight: 300;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0px;
 }
 
 .institutional__copy h4 {

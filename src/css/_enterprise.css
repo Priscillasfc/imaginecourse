@@ -1,17 +1,68 @@
-.enterprise__container {
+.enterprise {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
+  padding-top: 70px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .enterprise__image {
-  max-width: 756px;
-  align-self: left;
-  margin: 2.687rem 7.125rem 0;
+  width: 47.25rem;
+}
+
+.enterprise__copy {
+  display: block;
+}
+.enterprise__copy h6 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 53px;
+  margin-top: 10px;
+}
+
+.enterprise__copy p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: var(--color-copy);
+}
+
+.enterprise__logos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 35vw;
+  background-color: var(--color-primary);
+  background-size: auto;
+}
+
+.enterprise__copy-logos h6 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #333333;
+  text-align: center;
 }
 
 .enterprise__logos-img {
-  position: center;
-  height: 576px;
-  size: cover;
+  height: 21.0625rem;
+  width: 65%;
+  position: relative;
+  display: block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enterprise__video {
+  height: 44.6875rem;
+}
+
+.center {
+  width: 60%;
+  height: auto;
+  margin: 0 auto auto;
+  margin-top: 7.8125rem;
+  display: block;
 }

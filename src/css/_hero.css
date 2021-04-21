@@ -24,6 +24,7 @@
 
 .hero__copy h6 {
   font-family: "Montserrat";
+  margin-bottom: 0;
   font-size: 0.9375rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -45,5 +46,7 @@
   margin: 0;
   font-size: 0.9375rem;
   line-height: 1.875rem;
+  width: 43vw;
+  padding: 0rem;
   color: var(--color-copy--alt);
 }
